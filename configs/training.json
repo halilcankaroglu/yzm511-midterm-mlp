@@ -1,0 +1,14 @@
+{
+  "max_epochs": 150,
+  "es_patience": 15,
+  "es_fraction": 0.15,
+  "sched_factor": 0.5,
+  "sched_patience": 5,
+  "min_lr": 1e-05,
+  "sgd_momentum": 0.9,
+  "monitor": "internal_val_bce",
+  "selection_metric": "average_precision",
+  "threshold": 0.5,
+  "outer_splits": 3,
+  "inner_splits": 3
+}

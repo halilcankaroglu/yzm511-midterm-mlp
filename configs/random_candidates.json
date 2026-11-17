@@ -1,0 +1,95 @@
+[
+  {
+    "activation": "relu",
+    "batch_size": 64,
+    "clipping": false,
+    "dropout": 0.0,
+    "hidden_layers": [
+      64,
+      32
+    ],
+    "lr": 0.00486,
+    "scaler": "standard",
+    "weight_decay": 0.001,
+    "optimizer": "sgd",
+    "scheduler": true,
+    "code": "R1"
+  },
+  {
+    "activation": "relu",
+    "batch_size": 128,
+    "clipping": true,
+    "dropout": 0.0,
+    "hidden_layers": [
+      32
+    ],
+    "lr": 0.00156,
+    "scaler": "minmax",
+    "weight_decay": 0.0001,
+    "optimizer": "sgd",
+    "scheduler": true,
+    "code": "R2"
+  },
+  {
+    "activation": "tanh",
+    "batch_size": 32,
+    "clipping": false,
+    "dropout": 0.0,
+    "hidden_layers": [
+      64,
+      32
+    ],
+    "lr": 0.00276,
+    "scaler": "minmax",
+    "weight_decay": 0.0001,
+    "optimizer": "adam",
+    "scheduler": true,
+    "code": "R3"
+  },
+  {
+    "activation": "tanh",
+    "batch_size": 64,
+    "clipping": false,
+    "dropout": 0.0,
+    "hidden_layers": [
+      64,
+      32
+    ],
+    "lr": 0.00139,
+    "scaler": "minmax",
+    "weight_decay": 0.0001,
+    "optimizer": "adam",
+    "scheduler": true,
+    "code": "R4"
+  },
+  {
+    "activation": "relu",
+    "batch_size": 32,
+    "clipping": true,
+    "dropout": 0.0,
+    "hidden_layers": [
+      32
+    ],
+    "lr": 0.000701,
+    "scaler": "standard",
+    "weight_decay": 1e-05,
+    "optimizer": "adamw",
+    "scheduler": true,
+    "code": "R5"
+  },
+  {
+    "activation": "tanh",
+    "batch_size": 128,
+    "clipping": true,
+    "dropout": 0.0,
+    "hidden_layers": [
+      16
+    ],
+    "lr": 0.00848,
+    "scaler": "minmax",
+    "weight_decay": 0.001,
+    "optimizer": "adamw",
+    "scheduler": true,
+    "code": "R6"
+  }
+]
