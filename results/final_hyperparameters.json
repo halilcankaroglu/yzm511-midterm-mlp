@@ -1,0 +1,82 @@
+{
+  "selected_method": "manual",
+  "selected_code": "M2",
+  "config": {
+    "optimizer": "adam",
+    "hidden_layers": [
+      32
+    ],
+    "activation": "relu",
+    "scaler": "standard",
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 64,
+    "dropout": 0.0,
+    "clipping": false,
+    "scheduler": true,
+    "code": "M2"
+  },
+  "inner_cv_mean_ap": 0.42496354912826195,
+  "search_winners": {
+    "manual": {
+      "code": "M2",
+      "mean_ap": 0.42496354912826195
+    },
+    "random": {
+      "code": "R5",
+      "mean_ap": 0.4230289161446808
+    }
+  },
+  "primary_seed": 290162036,
+  "seeds": {
+    "base": 290162026,
+    "split": 290162027,
+    "outer_cv": 290162028,
+    "inner_cv": 290162029,
+    "early_stop": 290162030,
+    "random_search": 290162031,
+    "init": [
+      290162036,
+      290162037,
+      290162038
+    ]
+  },
+  "threshold": 0.5,
+  "training": {
+    "max_epochs": 150,
+    "es_patience": 15,
+    "es_fraction": 0.15,
+    "sched_factor": 0.5,
+    "sched_patience": 5,
+    "min_lr": 1e-05,
+    "sgd_momentum": 0.9,
+    "monitor": "internal_val_bce",
+    "selection_metric": "average_precision",
+    "threshold": 0.5,
+    "outer_splits": 3,
+    "inner_splits": 3
+  },
+  "seed_runs": [
+    {
+      "seed": 290162036,
+      "best_epoch": 14,
+      "epochs_run": 29,
+      "seconds": 4.7,
+      "n_params": 2017
+    },
+    {
+      "seed": 290162037,
+      "best_epoch": 12,
+      "epochs_run": 27,
+      "seconds": 2.0,
+      "n_params": 2017
+    },
+    {
+      "seed": 290162038,
+      "best_epoch": 14,
+      "epochs_run": 29,
+      "seconds": 2.0,
+      "n_params": 2017
+    }
+  ]
+}
