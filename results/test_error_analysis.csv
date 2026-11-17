@@ -1,0 +1,5 @@
+grup,n,olasilik_medyan,euribor_medyan,daha_once_basarili,yas_medyan,campaign_medyan
+FN,70,0.121,1.349,0.014,37.0,2.0
+FP,11,0.689,0.893,0.818,47.0,1.0
+TN,723,0.053,4.858,0.006,38.0,2.0
+TP,20,0.692,0.732,0.85,37.5,1.0

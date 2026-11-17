@@ -1,0 +1,7 @@
+model,metrik,nokta,alt,ust
+"MLP (M2, ana seed)",AP,0.441,0.341,0.554
+"MLP (M2, ana seed)",ROC_AUC,0.788,0.73,0.842
+"MLP (M2, ana seed)",F1,0.331,0.214,0.436
+LogReg,AP,0.429,0.322,0.545
+LogReg,ROC_AUC,0.784,0.723,0.838
+LogReg,F1,0.298,0.188,0.4
